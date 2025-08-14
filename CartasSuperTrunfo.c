@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    // Declarando das variáveis
+    
+// Declarando das variáveis da carta1
     char estado1[50];
     char codigo1[3];
     char cidade1[50];
@@ -10,7 +11,7 @@ int main() {
     float pib1;
     int turismo1;
 
-// Coletando as informações da carta 1
+// Coletando as informações da carta1
     printf("Digite o Estado1: \n");
     scanf("%s", &estado1);
     printf("Digite o codigo1: \n");
@@ -34,6 +35,40 @@ int main() {
     printf("Área1: %.2f \n", area1);
     printf("Pib1: %.2f \n", pib1);
     printf("Pontos turisticos1: %d \n", turismo1);
+
+// Declarando das variáveis da carta2
+    char estado2[50];
+    char codigo2[3];
+    char cidade2[50];
+    double populacao2;
+    float area2;
+    float pib2;
+    int turismo2;
+
+// Coletando as informações da carta2
+    printf("Digite o Estado2: \n");
+    scanf("%s", &estado2);
+    printf("Digite o codigo2: \n");
+    scanf("%s", &codigo2);
+    printf("Digite a cidade2: \n");
+    scanf("%s", &cidade2);
+    printf("Digite a populacao2: \n");
+    scanf("%f", &populacao2);
+    printf("Digite a area2: \n");
+    scanf("%f", &area2);
+    printf("Digite o pib2: \n");
+    scanf("%f", &pib2);
+    printf("Digite os pontos turísticos1: \n");
+    scanf(" %d", &turismo2);
+
+// Imprimindo as informações da carta2
+    printf("Estado2: %s \n", estado2);
+    printf("Codigo2: %s \n", codigo2);
+    printf("Cidade2: %s \n", cidade2);
+    printf("População2: %f\n", populacao2);
+    printf("Área2: %.2f \n", area2);
+    printf("Pib2: %.2f \n", pib2);
+    printf("Pontos turisticos2: %d \n", turismo2);
 
     return 0;
 }
